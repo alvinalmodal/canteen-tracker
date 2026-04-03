@@ -1,6 +1,6 @@
 # STATE.md — Development Task Breakdown
 
-## Current Phase: Phase 2 — Data Layer (repositories remaining)
+## Current Phase: Phase 4 — UI Screens (next)
 
 ---
 
@@ -18,15 +18,15 @@
 - [x] Define Room entities (Employee, CutoffPeriod, DeductionEntry, ScanSession)
 - [x] Create DAOs with queries (insert, query by cutoff period, aggregate totals)
 - [x] Create Room database class
-- [ ] Implement repository interfaces and implementations
+- [x] Implement repository interfaces and implementations
 - [ ] Write unit tests for DAOs
 
 ## Phase 3: OCR Engine
-- [ ] Implement ML Kit Text Recognition wrapper
-- [ ] Build CanteenFormParser (header detection, row parsing, name detection)
-- [ ] Handle multi-employee sheets (section break detection)
-- [ ] Handle amount extraction and total detection
-- [ ] Write unit tests with sample OCR output
+- [x] Implement ML Kit Text Recognition wrapper
+- [x] Build CanteenFormParser (header detection, row parsing, name detection)
+- [x] Handle multi-employee sheets (section break detection)
+- [x] Handle amount extraction and total detection
+- [x] Write unit tests with sample OCR output
 - [ ] Integration test against sample_images/
 
 ## Phase 4: UI Screens
