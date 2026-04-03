@@ -70,6 +70,7 @@ Parser uses ML Kit bounding box Y-coordinates to cluster text into rows, then X-
 - **Naming**: Follow Kotlin conventions. Composables are PascalCase. Functions are camelCase. Constants are SCREAMING_SNAKE_CASE.
 - **Min SDK**: 26 (Android 8.0)
 - **Target SDK**: 34
+- **Git**: Do not add Co-Authored-By or any co-author messages to commits.
 
 ## Build & Run
 
